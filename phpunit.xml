@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <phpunit bootstrap="./vendor/autoload.php"
-        colors = 'true'
-        verbose = 'true'
-        testOnFailure = 'false'>
+        colors="true"
+        verbose="true">
+
     <testsuites>
-        <testsuite name="test suits">
-            <directory>test</directory>
+        <testsuite name="unit">
+            <directory>tests</directory>
         </testsuite>
     </testsuites>
+    
 </phpunit>
-
-
